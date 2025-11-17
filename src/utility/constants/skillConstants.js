@@ -1,6 +1,6 @@
 import { Code2, Database, Server, Smartphone } from "lucide-react";
 
-export default [
+const skills = [
   {
     name: "Frontend",
     icon: Code2,
@@ -22,3 +22,5 @@ export default [
     items: ["React Native", "Responsive Design", "PWA"],
   },
 ];
+
+export default skills;
