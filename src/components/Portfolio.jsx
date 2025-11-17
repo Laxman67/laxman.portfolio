@@ -154,7 +154,7 @@ export default function Portfolio() {
                 with the latest technologies.
               </p>
               <a
-                href="https://drive.google.com/file/d/1iw5njceRpdecrnfCGlDM-6dJs9JRUDcw/view?usp=sharing"
+                href="https://drive.google.com/file/d/1oynUs3ZOMmqOwf9fZHql7VZgXtkeIeB-/view"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-purple-500/20 border border-purple-500 rounded-lg hover:bg-purple-500/30 transition-all"
               >
