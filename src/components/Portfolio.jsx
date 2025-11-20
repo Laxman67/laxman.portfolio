@@ -98,16 +98,23 @@ export default function Portfolio() {
           }`}
         >
           <div className="mb-6 relative inline-block">
-            {/* <image src="" */}
-            <div className="w-32 h-32 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 animate-pulse"></div>
-            <div className="absolute inset-0 w-32 h-32 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 blur-xl opacity-50"></div>
+            <div className="absolute inset-0 w-36 h-36 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 blur-xl opacity-60"></div>
+
+            <img
+              src="./profile-pic.jpg"
+              alt="Laxman"
+              className="w-36 h-36 p-1 object-center rounded-full object-cover border-4 border-purple-500 shadow-lg relative z-10"
+            />
           </div>
+
           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
             Laxman
           </h1>
+
           <p className="text-xl md:text-2xl text-gray-300 mb-8">
             MERN Stack Developer | Building Scalable Web Solutions
           </p>
+
           <div className="flex gap-4 justify-center mb-8">
             <button
               onClick={() => scrollToSection("projects")}
@@ -115,6 +122,7 @@ export default function Portfolio() {
             >
               View My Work
             </button>
+
             <button
               onClick={() => scrollToSection("contact")}
               className="px-8 py-3 border-2 border-purple-500 rounded-full hover:bg-purple-500/10 transition-all"
@@ -122,7 +130,7 @@ export default function Portfolio() {
               Get In Touch
             </button>
           </div>
-          {/* Get In Touch Component */}
+
           <GetInTouchLink socialLinks={social} />
         </div>
       </section>
